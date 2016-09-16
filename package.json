@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/brandonhorst/lacona-dash.git"
+    "url": "https://github.com/brandonhorst/lacona-audiodevice.git"
   },
   "dependencies": {
     "elliptical": "^1.2.0",
