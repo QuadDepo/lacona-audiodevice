@@ -69,7 +69,7 @@ async function fetchAudioDevices ({port}) {
   }
 }
 
-const AudioDeviceSource = onFetch(fetchAudioDevices, [])
+const AudioDeviceSource = onFetch(fetchAudioDevices, [], true)
 
 function describeAudioDevice (observe, input, {result}) {
   let items = []
