@@ -4,7 +4,7 @@
   "description": "Lacona Addon for changing the audio input/output devices",
   "main": "lib/index.js",
   "lacona": {
-    "title": "Caffeinate",
+    "title": "Change Audio Device",
     "description": "Change the devices used for audio input and output"
   },
   "scripts": {

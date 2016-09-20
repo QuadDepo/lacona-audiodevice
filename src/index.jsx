@@ -105,7 +105,7 @@ export const SwitchAudioDeviceCommand = {
   describe () {
     return (
       <sequence>
-        <literal text='set ' />
+        <list items={['set ', 'switch ', 'change ']} />
         <AudioPort id='port' />
         <literal text=' to ' />
         <AudioDevice id='device' />
