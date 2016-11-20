@@ -5,7 +5,13 @@
   "main": "lib/index.js",
   "lacona": {
     "title": "Change Audio Device",
-    "description": "Change the devices used for audio input and output"
+    "description": "Change the devices used for audio input and output",
+    "iconURL": "https://raw.githubusercontent.com/brandonhorst/lacona-audiodevice/master/icon.png",
+    "examples": [
+      "set [Input](audio port) to [Internal Microphone](audio device)",
+      "set [Output](audio port) to [Bluetooth Headphones](audio device)"
+    ],
+    "engine": ">=1.1.0"
   },
   "scripts": {
     "build": "babel src --out-dir lib",
